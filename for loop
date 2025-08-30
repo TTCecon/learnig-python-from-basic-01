@@ -1,0 +1,4 @@
+Problem: Problem: The Atreides family, a powerful noble house from the planet Caladan, wants to analyze the daily stock price fluctuations of their holdings in The Spacing Guild over the past week. 
+The daily stock prices are as follows: [120.5, 122.8, 119.9, 121.3, 123.7, 122.0, 121.5]. Using a for loop, calculate the average stock price for the week and determine which day had the highest stock price.
+
+Hint: You will need to use a for loop to iterate through the stock prices and a conditional statement to compare the prices day by day.
