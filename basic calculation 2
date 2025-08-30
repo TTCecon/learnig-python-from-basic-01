@@ -2,7 +2,7 @@ Problem:
 You are an exchange student at NHH and want to share "Bubble Milk Tea" from Taiwan with your friends, Professor and Teaching assistants.
 To ensure everyone gets a fair share, you decide to write a simple bubble quantity calculator, a calculator to measure quantity of bubble. 
 
-If you have 359.64 grams of bubble and 7 people, how much bubble should each person get? Write down the answer based on your code. The result must display with two decimal places.
+If you have 359.64 grams of bubble and 7 people, how much bubble should each person get? 
 
 Ans:
 total_bubble = float(input("Please enter the total amount of bubble (in grams): "))
