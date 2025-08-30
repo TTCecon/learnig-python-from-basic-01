@@ -5,3 +5,13 @@ To ensure everyone gets a fair share, you decide to write a simple bubble quanti
 If you have 359.64 grams of bubble and 7 people, how much bubble should each person get? Write down the answer based on your code. The result must display with two decimal places.
 
 Ans:
+total_bubble = float(input("Please enter the total amount of bubble (in grams): "))
+people = int(input("Please enter the number of people: "))
+
+bubble_per_person = total_bubble / people
+
+print(f"Each person should get {bubble_per_person:.2f} grams of sugar.")
+
+bubble_per_person = total_bubble / people
+
+print(f"With 300 grams of bubble and 7 people, each person should get {bubble_per_person:.2f} grams of bubble.")
