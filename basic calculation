@@ -1,0 +1,18 @@
+Question
+TSMC (Taiwan Semiconductor Manufacturing Company Limited) operates in the United States, the Eurozone, and Japan. 
+The company's revenue in the U.S. is $30,000,000, in the Eurozone it is €8,000,000, and in Japan, it is ·1,100,000,000.
+Use Python to convert these revenues into U.S. dollars (assuming 1 euro = 1.1 dollars and 1 dollar = 110 yen),
+and calculate the company's total revenue.
+Hint: You will need to use variables, basic arithmetic operations, and currency conversion to solve this problem.
+
+Answer:
+income_usd = 30000000
+income_eur = 8000000
+income_jpy = 1100000000
+
+income_eur_to_usd = income_eur * 1.1
+income_jpy_to_usd = income_jpy / 110
+
+total_income_usd = income_usd + income_eur_to_usd + income_jpy_to_usd
+
+print("The company 's total revenue is: ", total_income_usd, "USD")
